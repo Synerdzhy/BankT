@@ -8,7 +8,7 @@ public class ConnectionService {
 
     private ConnectionService() throws ClassNotFoundException, SQLException {
         Class.forName("org.hsqldb.jdbc.JDBCDriver");
-        this.connection = DriverManager.getConnection("jdbc:hsqldb:file:\\BankTask\\bankdb\\base", "admin", "");
+        this.connection = DriverManager.getConnection("jdbc:hsqldb:file:bankdb\\base", "admin", "");
     }
 
     public static ConnectionService getInstance() {
