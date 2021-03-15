@@ -1,4 +1,4 @@
-# BankTask Java 11
+# BankTask
 
 Compile and Run
 
